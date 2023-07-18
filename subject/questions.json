@@ -1,0 +1,23 @@
+{
+    "questions": [
+        {
+            "question": "What does ICT stand for?",
+            "options": ["A) Information and Computer Technology", "B) Internet and Communication Technology", "C) Information and Communication Technology", "D) Internet and Computer Technology"],
+            "correctAnswer": "C) Information and Communication Technology",
+            "explanation": "ICT stands for Information and Communication Technology."
+        },
+        {
+            "question": "Which of the following is NOT an input device?",
+            "options": ["A) Keyboard", "B) Mouse", "C) Monitor", "D) Scanner"],
+            "correctAnswer": "C) Monitor",
+            "explanation": "A monitor is an output device, not an input device."
+        },
+        {
+            "question": "What does RAM stand for?",
+            "options": ["A) Read-Only Memory", "B) Random Access Memory", "C) Read Access Memory", "D) Read and Modify"],
+            "correctAnswer": "B) Random Access Memory",
+            "explanation": "RAM stands for Random Access Memory."
+        }
+         
+    ]
+}
