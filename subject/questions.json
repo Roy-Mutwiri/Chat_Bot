@@ -17,7 +17,237 @@
             "options": ["A) Read-Only Memory", "B) Random Access Memory", "C) Read Access Memory", "D) Read and Modify"],
             "correctAnswer": "B) Random Access Memory",
             "explanation": "RAM stands for Random Access Memory."
+        },
+        {
+            "question": "What does CPU stand for?",
+            "options": ["A) Central Processing Unit", "B) Computer Processing Unit", "C) Central Power Unit", "D) Computer Power Unit"],
+            "correctAnswer": "A) Central Processing Unit",
+            "explanation": "CPU stands for Central Processing Unit."
+        },
+        {
+            "question": "Which programming language is known for its ease of learning and readability?",
+            "options": ["A) Java", "B) Python", "C) C++", "D) Ruby"],
+            "correctAnswer": "B) Python",
+            "explanation": "Python is known for its simplicity and readability, making it easy to learn and use."
+        },
+        {
+            "question": "What is the function of an IP address?",
+            "options": ["A) To identify the type of computer", "B) To identify the location of a website", "C) To identify a specific website", "D) To identify a specific device on a network"],
+            "correctAnswer": "D) To identify a specific device on a network",
+            "explanation": "An IP address is used to uniquely identify a device on a network, allowing it to send and receive data."
+        },
+        {
+            "question": "What is the purpose of a firewall?",
+            "options": ["A) To protect hardware from physical damage", "B) To prevent unauthorized access to a computer or network", "C) To improve the performance of a computer", "D) To allow access to restricted websites"],
+            "correctAnswer": "B) To prevent unauthorized access to a computer or network",
+            "explanation": "A firewall acts as a security barrier between a trusted internal network and an untrusted external network, blocking unauthorized access."
+        },
+        {
+            "question": "What does HTTP stand for?",
+            "options": ["A) Hypertext Transfer Protocol", "B) Hypertext Transmission Protocol", "C) Hypertext Transport Protocol", "D) Hypertext Text Protocol"],
+            "correctAnswer": "A) Hypertext Transfer Protocol",
+            "explanation": "HTTP stands for Hypertext Transfer Protocol, which is used for transmitting data over the internet."
+        },
+        {
+            "question": "What is the role of an operating system in a computer?",
+            "options": ["A) To connect the computer to the internet", "B) To manage hardware and software resources", "C) To create documents and spreadsheets", "D) To provide power to the computer"],
+            "correctAnswer": "B) To manage hardware and software resources",
+            "explanation": "An operating system is responsible for managing computer hardware and software resources, providing a platform for running applications."
+        },
+        {
+            "question": "What is the purpose of an SSL certificate?",
+            "options": ["A) To encrypt internet traffic", "B) To increase the speed of a website", "C) To improve website design", "D) To scan for computer viruses"],
+            "correctAnswer": "A) To encrypt internet traffic",
+            "explanation": "An SSL certificate is used to encrypt data transmitted between a web server and a user's browser, ensuring secure communication."
+        },
+        
+        {
+                    "question": "What does GPU stand for?",
+                    "options": ["A) General Processing Unit", "B) Graphical Performance Unit", "C) Graphics Processing Unit", "D) General Power Unit"],
+                    "correctAnswer": "C) Graphics Processing Unit",
+                    "explanation": "GPU stands for Graphics Processing Unit, which is specialized in rendering images and videos for computer graphics."
+                },
+        {
+                    "question": "What is the purpose of a cache in a computer?",
+                    "options": ["A) To store operating system files", "B) To provide extra storage for large files", "C) To improve overall system performance", "D) To store browser history"],
+                    "correctAnswer": "C) To improve overall system performance",
+                    "explanation": "A cache is a high-speed memory used to store frequently accessed data, speeding up the computer's response time and performance."
+            },
+       {
+                    "question": "What is the main function of an Ethernet cable in a network?",
+                    "options": ["A) To transmit data wirelessly", "B) To connect computers to the internet", "C) To establish secure VPN connections", "D) To provide a wired connection between devices"],
+                    "correctAnswer": "D) To provide a wired connection between devices",
+                    "explanation": "An Ethernet cable is used to establish a physical wired connection between devices in a network, allowing data transmission."
+                },
+                {
+                    "question": "What does RAID stand for in data storage?",
+                    "options": ["A) Redundant Array of Independent Disks", "B) Random Array of Integrated Drives", "C) Reliable Array of Internet Databases", "D) Robust Assembly of Internal Devices"],
+                    "correctAnswer": "A) Redundant Array of Independent Disks",
+                    "explanation": "RAID is a data storage technique that combines multiple disk drives into a single logical unit for redundancy and performance improvement."
+                },
+                {
+                    "question": "Which of the following protocols is commonly used for email communication?",
+                    "options": ["A) SMTP", "B) HTTP", "C) FTP", "D) SSH"],
+                    "correctAnswer": "A) SMTP",
+                    "explanation": "SMTP (Simple Mail Transfer Protocol) is widely used for sending and receiving email messages over the internet."
+                },
+                {
+                    "question": "What is the purpose of an IDE (Integrated Development Environment)?",
+                    "options": ["A) To secure internet connections", "B) To manage hardware resources", "C) To edit videos and images", "D) To provide tools for software development"],
+                    "correctAnswer": "D) To provide tools for software development",
+                    "explanation": "An IDE is a software application that provides developers with tools for writing, testing, and debugging code in one integrated environment."
+                },
+                {
+                    "question": "Which type of malware is designed to block access to a computer system until a ransom is paid?",
+                    "options": ["A) Spyware", "B) Worm", "C) Ransomware", "D) Trojan"],
+                    "correctAnswer": "C) Ransomware",
+                    "explanation": "Ransomware is a type of malware that encrypts a user's files or locks them out of their system, demanding a ransom to restore access."
+                },
+                {
+                    "question": "What is the purpose of DNS (Domain Name System)?",
+                    "options": ["A) To convert IP addresses into domain names", "B) To convert domain names into IP addresses", "C) To encrypt internet traffic", "D) To block malicious websites"],
+                    "correctAnswer": "B) To convert domain names into IP addresses",
+                    "explanation": "DNS is a system that translates human-readable domain names into IP addresses, allowing computers to locate resources on the internet."
+                },
+                {
+                    "question": "In computing, what does GUI stand for?",
+                    "options": ["A) Graphical User Interface", "B) General Utility Interface", "C) Global User Integration", "D) General User Interface"],
+                    "correctAnswer": "A) Graphical User Interface",
+                    "explanation": "GUI stands for Graphical User Interface, which allows users to interact with a computer using visual elements such as icons and windows."
+                },
+                {
+                    "question": "What is the purpose of a VPN (Virtual Private Network)?",
+                    "options": ["A) To increase internet speed", "B) To prevent unauthorized access to a network", "C) To remove computer viruses", "D) To host websites"],
+                    "correctAnswer": "B) To prevent unauthorized access to a network",
+                    "explanation": "A VPN is used to create a secure and encrypted connection over a less secure network, such as the internet, to protect data and prevent unauthorized access."
+                },
+            
+        
+                
+               {
+                         "question": "What is the purpose of a DNS cache?",
+                         "options": ["A) To store website data for faster access", "B) To prevent unauthorized access to a network", "C) To block malicious websites", "D) To encrypt internet traffic"],
+                            "correctAnswer": "A) To store website data for faster access",
+                            "explanation": "A DNS cache stores recent domain name resolution results, allowing faster access to frequently visited websites by reducing the need to query DNS servers repeatedly."
+                        },
+                        {
+                            "question": "Which of the following is an example of cloud computing service?",
+                            "options": ["A) Microsoft Office", "B) Adobe Photoshop", "C) Windows OS", "D) Dropbox"],
+                            "correctAnswer": "D) Dropbox",
+                            "explanation": "Dropbox is an example of a cloud computing service that provides file storage and synchronization over the internet."
+                        },
+                        {
+                            "question": "What does URL stand for?",
+                            "options": ["A) Universal Resource Locator", "B) Uniform Resource Locator", "C) Unified Resource Locator", "D) Universal Reference Locator"],
+                            "correctAnswer": "B) Uniform Resource Locator",
+                            "explanation": "URL stands for Uniform Resource Locator, which is used to specify the address of resources on the internet."
+                        },
+                        {
+                            "question": "What is the purpose of a compiler in programming?",
+                            "options": ["A) To optimize computer performance", "B) To convert high-level code into machine code", "C) To manage hardware resources", "D) To create graphical user interfaces"],
+                            "correctAnswer": "B) To convert high-level code into machine code",
+                            "explanation": "A compiler translates high-level programming code into machine code, which can be executed directly by a computer's CPU."
+                        },
+                        {
+                            "question": "Which protocol is used for secure data transfer and communication over the internet?",
+                            "options": ["A) HTTP", "B) FTP", "C) HTTPS", "D) SMTP"],
+                            "correctAnswer": "C) HTTPS",
+                            "explanation": "HTTPS (Hypertext Transfer Protocol Secure) is an extension of HTTP that provides encrypted and secure data transfer over the internet."
+                        },
+                        {
+                            "question": "What is the function of an antivirus software?",
+                            "options": ["A) To create backups of important files", "B) To manage internet connections", "C) To prevent unauthorized access to a network", "D) To protect against computer viruses and malware"],
+                            "correctAnswer": "D) To protect against computer viruses and malware",
+                            "explanation": "Antivirus software is designed to detect, prevent, and remove computer viruses, malware, and other malicious software from a computer system."
+                        },
+                        {
+                            "question": "What is the purpose of a modem?",
+                            "options": ["A) To manage internet connections", "B) To control hardware resources", "C) To create graphical user interfaces", "D) To provide power to the computer"],
+                            "correctAnswer": "A) To manage internet connections",
+                            "explanation": "A modem (modulator-demodulator) is a device used to modulate digital signals into analog signals for transmission over telephone lines and demodulate incoming analog signals back into digital signals for computer communication."
+                        },
+                        {
+                            "question": "In networking, what does WAN stand for?",
+                            "options": ["A) Wireless Area Network", "B) Wide Area Network", "C) Web Access Node", "D) Wi-Fi Ad-hoc Network"],
+                            "correctAnswer": "B) Wide Area Network",
+                            "explanation": "WAN stands for Wide Area Network, which covers a larger geographic area and connects multiple LANs or other networks over long distances."
+                        },
+                        {
+                            "question": "What is the purpose of an SSH (Secure Shell) in network communication?",
+                            "options": ["A) To encrypt internet traffic", "B) To create backups of important files", "C) To provide remote access and secure communication", "D) To remove computer viruses"],
+                            "correctAnswer": "C) To provide remote access and secure communication",
+                            "explanation": "SSH (Secure Shell) is a cryptographic network protocol that provides secure remote access to network devices and secure communication over an unsecured network."
+                        },
+                        {
+                            "question": "What does API stand for in the context of software development?",
+                            "options": ["A) Application Program Interface", "B) Advanced Programming Interface", "C) Automated Protocol Interaction", "D) Application Programming Interaction"],
+                            "correctAnswer": "A) Application Program Interface",
+                            "explanation": "API stands for Application Program Interface, which allows different software applications to communicate and interact with each other."
+                        },
+
+
+        {
+            "question": "What is the role of ICT in modern society?",
+            "options": ["A) Facilitating communication and collaboration", "B) Controlling weather patterns", "C) Predicting stock market trends", "D) Performing complex mathematical calculations"],
+            "correctAnswer": "A) Facilitating communication and collaboration",
+            "explanation": "ICT plays a crucial role in modern society by enabling communication and collaboration through technologies such as the internet, social media, and messaging applications."
+        },
+        {
+            "question": "What are the primary components of a computer system?",
+            "options": ["A) Hardware and software", "B) Monitor and keyboard", "C) CPU and RAM", "D) Printer and scanner"],
+            "correctAnswer": "A) Hardware and software",
+            "explanation": "A computer system consists of both hardware (physical components like CPU, monitor, keyboard, etc.) and software (programs and operating systems) working together to perform tasks."
+        },
+        {
+            "question": "What is the purpose of an operating system?",
+            "options": ["A) To connect computers to the internet", "B) To manage hardware and software resources", "C) To create documents and spreadsheets", "D) To provide power to the computer"],
+            "correctAnswer": "B) To manage hardware and software resources",
+            "explanation": "The operating system acts as an intermediary between the user and computer hardware, managing resources like memory, CPU, and providing a user-friendly interface for running applications."
+        },
+        {
+            "question": "What is the difference between hardware and software?",
+            "options": ["A) Hardware is physical, while software is virtual", "B) Hardware is for input, while software is for output", "C) Hardware is permanent, while software is temporary", "D) Hardware is tangible, while software is intangible"],
+            "correctAnswer": "A) Hardware is physical, while software is virtual",
+            "explanation": "Hardware refers to the physical components of a computer system that can be touched and seen, while software refers to the programs, instructions, and data that run on the hardware and are intangible."
+        },
+        {
+            "question": "What does the term 'bandwidth' refer to in computer networks?",
+            "options": ["A) The physical width of a network cable", "B) The speed at which data is transferred", "C) The distance covered by a network signal", "D) The number of devices connected to a network"],
+            "correctAnswer": "B) The speed at which data is transferred",
+            "explanation": "Bandwidth refers to the capacity and speed at which data can be transmitted over a network connection, typically measured in bits per second (bps) or megabits per second (Mbps)."
+        },
+        {
+            "question": "What is the purpose of a database in ICT?",
+            "options": ["A) To store and manage data", "B) To create graphical designs", "C) To develop software applications", "D) To connect to the internet"],
+            "correctAnswer": "A) To store and manage data",
+            "explanation": "A database is used in ICT to store, organize, and manage large amounts of structured data efficiently, allowing for easy retrieval, manipulation, and analysis."
+        },
+        {
+            "question": "What is the significance of cloud computing in ICT?",
+            "options": ["A) It enables remote access to computing resources", "B) It controls weather patterns", "C) It predicts future technology trends", "D) It performs complex mathematical calculations"],
+            "correctAnswer": "A) It enables remote access to computing resources",
+            "explanation": "Cloud computing allows users to access and use computing resources, such as storage, processing power, and applications, over the internet on-demand from anywhere, eliminating the need for local infrastructure."
+        },
+        {
+            "question": "What is the importance of cybersecurity in ICT?",
+            "options": ["A) It protects against unauthorized access and data breaches", "B) It enhances internet speed", "C) It designs user interfaces", "D) It develops software applications"],
+            "correctAnswer": "A) It protects against unauthorized access and data breaches",
+            "explanation": "Cybersecurity is essential in ICT to safeguard computer systems, networks, and data from unauthorized access, threats, and malicious activities, ensuring confidentiality, integrity, and availability."
+        },
+        {
+            "question": "What is the purpose of data backup in ICT?",
+            "options": ["A) To improve computer performance", "B) To analyze data patterns", "C) To prevent software crashes", "D) To protect against data loss"],
+            "correctAnswer": "D) To protect against data loss",
+            "explanation": "Data backup involves creating copies of important files and storing them in a separate location or medium, providing a means to restore data in the event of accidental deletion, hardware failure, or other disasters."
+        },
+        {
+            "question": "What is the role of ICT in education?",
+            "options": ["A) Enabling online learning and distance education", "B) Creating weather forecasts", "C) Generating financial reports", "D) Developing mobile applications"],
+            "correctAnswer": "A) Enabling online learning and distance education",
+            "explanation": "ICT plays a vital role in education by facilitating online learning, providing access to educational resources, virtual classrooms, interactive multimedia materials, and enabling distance education."
         }
-         
     ]
 }
+            
+                
+        
