@@ -1,4 +1,3 @@
-// quiz.js
 document.addEventListener("DOMContentLoaded", function () {
     // Fetch the questions from the JSON file
     fetch("questions.json")
