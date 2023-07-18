@@ -6,16 +6,17 @@ body, h1, p, a {
 
 /* Basic styling for the header */
 header {
-    background-color: #333;
+    background-color: #2c3e50; /* Dark blue */
     color: #fff;
     padding: 10px;
     text-align: center;
 }
 
-/* Basic styling for the subject buttons */
+/* Modern styling for the subject buttons */
 .subject-buttons {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the buttons horizontally */
+    flex-wrap: wrap; /* Wrap the buttons if they exceed the container's width */
     gap: 10px;
     margin: 20px;
 }
@@ -24,13 +25,15 @@ a {
     display: block;
     padding: 10px;
     text-align: center;
-    background-color: #007BFF;
+    background-color: #3498db; /* Bright blue */
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
 }
 
 a:hover {
-    background-color: #0056b3;
+    background-color: #2980b9; /* Slightly darker shade on hover */
 }
