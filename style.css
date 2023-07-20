@@ -19,6 +19,7 @@ header {
     flex-wrap: wrap; /* Wrap the buttons if they exceed the container's width */
     gap: 10px;
     margin: 20px;
+    
 }
 
 a {
