@@ -1,0 +1,450 @@
+{
+    "questions": [
+      {
+        "question": "What is the correct way to declare a pointer variable in C?",
+        "options": [
+          "A) int pointer;",
+          "B) pointer int;",
+          "C) int *pointer;",
+          "D) *int pointer;"
+        ],
+        "correctAnswer": "C) int *pointer;",
+        "explanation": "The correct way to declare a pointer variable in C is by using the asterisk (*) before the variable name. For example, 'int *ptr;' declares a pointer to an integer."
+      },
+      {
+        "question": "Which C keyword is used to exit from a loop prematurely?",
+        "options": [
+          "A) continue",
+          "B) exit",
+          "C) return",
+          "D) break"
+        ],
+        "correctAnswer": "D) break",
+        "explanation": "The 'break' keyword is used to exit from a loop prematurely. When encountered inside a loop, 'break' terminates the loop and continues with the code after the loop."
+      },
+      {
+        "question": "What is the purpose of the 'scanf' function in C?",
+        "options": [
+          "A) Printing formatted output",
+          "B) Reading input from the user",
+          "C) Allocating memory dynamically",
+          "D) Declaring variables"
+        ],
+        "correctAnswer": "B) Reading input from the user",
+        "explanation": "The 'scanf' function in C is used to read input from the user. It allows the program to receive data from the user, which can then be stored in variables for further processing."
+      },
+      {
+        "question": "Which header file must be included to work with strings in C?",
+        "options": [
+          "A) stdlib.h",
+          "B) math.h",
+          "C) string.h",
+          "D) ctype.h"
+        ],
+        "correctAnswer": "C) string.h",
+        "explanation": "To work with strings in C, the 'string.h' header file must be included. It contains various functions for string manipulation, such as copying, concatenation, and comparison."
+      },
+      {
+        "question": "What does the 'strcpy' function in C do?",
+        "options": [
+          "A) Concatenates two strings",
+          "B) Compares two strings",
+          "C) Copies one string to another",
+          "D) Finds the length of a string"
+        ],
+        "correctAnswer": "C) Copies one string to another",
+        "explanation": "The 'strcpy' function in C is used to copy one string to another. It takes two arguments: the destination string (where the copy will be stored) and the source string (the string to be copied)."
+      },
+      {
+        "question": "In C, what does the '->' operator do?",
+        "options": [
+          "A) Accesses elements of an array",
+          "B) Performs logical AND operation",
+          "C) Accesses members of a structure through a pointer",
+          "D) Assigns a value to a variable"
+        ],
+        "correctAnswer": "C) Accesses members of a structure through a pointer",
+        "explanation": "In C, the '->' operator is used to access members of a structure through a pointer. It is a shorthand notation to access structure elements when working with pointers to structures."
+      },
+      {
+        "question": "What is the purpose of the 'while' loop in C?",
+        "options": [
+          "A) To create an infinite loop",
+          "B) To execute a block of code repeatedly while a condition is true",
+          "C) To iterate through a collection of elements",
+          "D) To define a function"
+        ],
+        "correctAnswer": "B) To execute a block of code repeatedly while a condition is true",
+        "explanation": "The 'while' loop in C is used to execute a block of code repeatedly as long as a specified condition is true. The loop continues as long as the condition remains true."
+      },
+      {
+        "question": "What is the output of the following C code?\n\n#include <stdio.h>\nint main() {\n    int x = 5;\n    int y = x++;\n    printf(\"%d %d\", x, y);\n    return 0;\n}",
+        "options": [
+          "A) 6 5",
+          "B) 5 5",
+          "C) 6 6",
+          "D) 5 6"
+        ],
+        "correctAnswer": "A) 6 5",
+        "explanation": "The '++' operator increments the value of 'x' after the assignment. So, 'y' is assigned the initial value of 'x' (5), and then 'x' is incremented to 6. Hence, the output is '6 5'."
+      },
+      {
+        "question": "Which data type is used to store a single character in C?",
+        "options": [
+          "A) char",
+          "B) character",
+          "C) int",
+          "D) string"
+        ],
+        "correctAnswer": "A) char",
+        "explanation": "The 'char' data type in C is used to store a single character. It can hold a single character value, such as a letter, digit, or special character."
+      },
+      {
+        "question": "What is the purpose of the 'for' loop in C?",
+        "options": [
+          "A) To create an infinite loop",
+          "B) To iterate through a collection of elements",
+          "C) To execute a block of code repeatedly while a condition is true",
+          "D) To define a function"
+        ],
+        "correctAnswer": "B) To iterate through a collection of elements",
+        "explanation": "The 'for' loop in C is used to iterate through a collection of elements, such as an array. It provides a compact way to perform a repetitive task for a specified number of times."
+      },
+      {
+        "question": "What is the purpose of the 'do-while' loop in C?",
+        "options": [
+          "A) To create an infinite loop",
+          "B) To iterate through a collection of elements",
+          "C) To execute a block of code at least once and then repeatedly while a condition is true",
+          "D) To define a function"
+        ],
+        "correctAnswer": "C) To execute a block of code at least once and then repeatedly while a condition is true",
+        "explanation": "The 'do-while' loop in C is used to execute a block of code at least once, regardless of the condition, and then repeatedly execute it as long as the specified condition is true."
+      },
+      {
+        "question": "Which C library function is used to compare two strings?",
+        "options": [
+          "A) cmpstr",
+          "B) compare",
+          "C) strcmp",
+          "D) strcompare"
+        ],
+        "correctAnswer": "C) strcmp",
+        "explanation": "The 'strcmp' function in C is used to compare two strings. It returns an integer value that indicates the comparison result: 0 if the strings are equal, a negative value if the first string is less than the second, and a positive value if the first string is greater than the second."
+      },
+      {
+        "question": "What is the purpose of the 'switch' statement in C?",
+        "options": [
+          "A) To create an infinite loop",
+          "B) To perform arithmetic calculations",
+          "C) To execute a block of code based on the value of an expression",
+          "D) To define a function"
+        ],
+        "correctAnswer": "C) To execute a block of code based on the value of an expression",
+        "explanation": "The 'switch' statement in C is used to execute a block of code based on the value of an expression. It provides an efficient way to select one of many code blocks to be executed."
+      },
+      {
+        "question": "What is the output of the following C code?\n\n#include <stdio.h>\nint main() {\n    int i;\n    for (i = 0; i < 5; i++) {\n        if (i == 3)\n            continue;\n        printf(\"%d \", i);\n    }\n    return 0;\n}",
+        "options": [
+          "A) 0 1 2",
+          "B) 0 1 2 3",
+          "C) 0 1 2 4",
+          "D) 0 1 2 3 4"
+        ],
+        "correctAnswer": "C) 0 1 2 4",
+        "explanation": "The 'continue' statement in the 'for' loop skips the rest of the loop's body when 'i' is equal to 3. As a result, the numbers 0, 1, 2, and 4 are printed, and 3 is skipped. The output is '0 1 2 4'."
+      },
+      {
+        "question": "Which C standard library function is used to free dynamically allocated memory?",
+        "options": [
+          "A) free()",
+          "B) dealloc()",
+          "C) release()",
+          "D) dispose()"
+        ],
+        "correctAnswer": "A) free()",
+        "explanation": "The 'free()' function in C is used to deallocate dynamically allocated memory that was previously allocated using 'malloc()', 'calloc()', or 'realloc()'. It helps to release memory and prevent memory leaks in C programs."
+      },
+      {
+        "question": "What is the purpose of the 'typedef' keyword in C?",
+        "options": [
+          "A) To declare a new data type",
+          "B) To define a variable",
+          "C) To declare a function",
+          "D) To include a header file"
+        ],
+        "correctAnswer": "A) To declare a new data type",
+        "explanation": "The 'typedef' keyword in C is used to create a new name (alias) for an existing data type. It helps to improve code readability and maintainability by providing descriptive names for complex data types."
+      },
+      {
+        "question": "What does the 'static' keyword do when applied to a global variable in C?",
+        "options": [
+          "A) It makes the variable accessible only within the current source file",
+          "B) It makes the variable immutable",
+          "C) It makes the variable accessible from any part of the program",
+          "D) It makes the variable dynamic"
+        ],
+        "correctAnswer": "A) It makes the variable accessible only within the current source file",
+        "explanation": "When 'static' is applied to a global variable in C, it restricts the variable's scope to the current source file. It becomes a file-local variable, and other source files cannot access it directly."
+      },
+      {
+        "question": "Which C library function is used to find the largest integer that is less than or equal to a given number?",
+        "options": [
+          "A) floor",
+          "B) round",
+          "C) ceil",
+          "D) trunc"
+        ],
+        "correctAnswer": "A) floor",
+        "explanation": "The 'floor' function in C is used to find the largest integer that is less than or equal to a given number. It is part of the math library (math.h)."
+      },
+      {
+        "question": "In C, what is the purpose of the 'continue' statement?",
+        "options": [
+          "A) To terminate the program",
+          "B) To skip the rest of the current loop iteration and start the next iteration",
+          "C) To jump to a specific line number in the code",
+          "D) To execute a block of code repeatedly"
+        ],
+        "correctAnswer": "B) To skip the rest of the current loop iteration and start the next iteration",
+        "explanation": "The 'continue' statement in C is used to skip the remaining statements in the current iteration of a loop and move to the next iteration. It is commonly used to skip certain iterations based on specific conditions."
+      },
+      {
+        "question": "Which C standard library function is used to convert a string to an integer?",
+        "options": [
+          "A) itoa",
+          "B) atoi",
+          "C) strtoi",
+          "D) inttostr"
+        ],
+        "correctAnswer": "B) atoi",
+        "explanation": "The 'atoi' function in C is used to convert a string representation of an integer to an actual integer value. It is part of the standard library (stdlib.h)."
+      },
+      {
+        "question": "What is the purpose of the 'break' statement in C?",
+        "options": [
+          "A) To end the program execution",
+          "B) To skip the current loop iteration and start the next iteration",
+          "C) To exit from a loop or switch statement",
+          "D) To execute a block of code repeatedly"
+        ],
+        "correctAnswer": "C) To exit from a loop or switch statement",
+        "explanation": "The 'break' statement in C is used to exit prematurely from a loop or switch statement. When 'break' is encountered inside a loop or switch, the control immediately exits the loop or switch."
+      },
+      {
+        "question": "What is the output of the following C code?\n\n#include <stdio.h>\nint main() {\n    int x = 10;\n    if (x > 5) {\n        printf(\"A\");\n    }\n    else if (x > 2) {\n        printf(\"B\");\n    }\n    else {\n        printf(\"C\");\n    }\n    return 0;\n}",
+        "options": [
+          "A) A",
+          "B) B",
+          "C) C",
+          "D) AB"
+        ],
+        "correctAnswer": "A) A",
+        "explanation": "The 'if' statement in C is evaluated from top to bottom, and once a condition is true, the corresponding block of code is executed, and the rest of the 'if' and 'else if' blocks are skipped. In this case, since 'x' is greater than 5, the first condition is true, and 'A' is printed."
+      },
+      {
+        "question": "Which C library function is used to find the absolute value of a number?",
+        "options": [
+          "A) abs",
+          "B) fabs",
+          "C) absolute",
+          "D) absolutevalue"
+        ],
+        "correctAnswer": "A) abs",
+        "explanation": "The 'abs' function in C is used to find the absolute value of an integer. It returns the absolute value of the given number, which is its magnitude without considering its sign."
+      },
+      {
+        "question": "In C, what is the purpose of the 'goto' statement?",
+        "options": [
+          "A) To create loops",
+          "B) To declare variables",
+          "C) To jump to a specific label in the code",
+          "D) To execute a block of code repeatedly"
+        ],
+        "correctAnswer": "C) To jump to a specific label in the code",
+        "explanation": "The 'goto' statement in C is used to transfer the program's control to a specific labeled point in the code. However, it is generally considered bad practice to use 'goto', as it can make the code difficult to read and maintain."
+      },
+      {
+        "question": "Which C library function is used to find the square root of a number?",
+        "options": [
+          "A) sqrt",
+          "B) squareroot",
+          "C) root",
+          "D) square"
+        ],
+        "correctAnswer": "A) sqrt",
+        "explanation": "The 'sqrt' function in C is used to find the square root of a number. It returns the square root as a double data type."
+      },
+      {
+        "question": "What is the purpose of the 'union' in C?",
+        "options": [
+          "A) To combine multiple variables of the same type",
+          "B) To declare a structure with multiple members",
+          "C) To store multiple variables with different data types at the same memory location",
+          "D) To create arrays with dynamic size"
+        ],
+        "correctAnswer": "C) To store multiple variables with different data types at the same memory location",
+        "explanation": "A 'union' in C is a user-defined data type that allows you to store different data types in the same memory location. All members of the union share the same memory, and the size of the union is determined by the largest member's size."
+      },
+      {
+        "question": "Which C library function is used to find the smallest integer that is greater than or equal to a given number?",
+        "options": [
+          "A) ceil",
+          "B) floor",
+          "C) round",
+          "D) ceilf"
+        ],
+        "correctAnswer": "A) ceil",
+        "explanation": "The 'ceil' function in C is used to find the smallest integer that is greater than or equal to a given number. It rounds up the number to the nearest integer."
+      },
+      {
+        "question": "What is the purpose of the 'volatile' keyword in C?",
+        "options": [
+          "A) To indicate that a variable's value cannot be modified",
+          "B) To create a constant variable",
+          "C) To specify that a variable can be modified by an external source",
+          "D) To indicate a function that returns no value"
+        ],
+        "correctAnswer": "C) To specify that a variable can be modified by an external source",
+        "explanation": "The 'volatile' keyword in C is used to indicate that a variable's value can be changed by an external source that is not directly under the program's control, such as hardware registers or an interrupt service routine."
+      },
+      {
+        "question": "In C, what is the purpose of the 'void' keyword?",
+        "options": [
+          "A) To define an empty function",
+          "B) To create a null pointer",
+          "C) To specify that a function returns no value",
+          "D) To indicate the end of a program"
+        ],
+        "correctAnswer": "C) To specify that a function returns no value",
+        "explanation": "The 'void' keyword in C is used to specify that a function does not return a value. It is commonly used for functions that perform actions but do not produce any meaningful result."
+      },
+      {
+        "question": "What is the output of the following C code?\n\n#include <stdio.h>\nint main() {\n    int arr[] = {1, 2, 3, 4, 5};\n    int *ptr = arr;\n    printf(\"%d\", ptr[3]);\n    return 0;\n}",
+        "options": [
+          "A) 1",
+          "B) 2",
+          "C) 3",
+          "D) 4"
+        ],
+        "correctAnswer": "D) 4",
+        "explanation": "The pointer 'ptr' is assigned the address of the first element of the 'arr' array. When we access 'ptr[3]', it is equivalent to '*(ptr + 3)', which gives us the value at the memory location four elements ahead of the base address. So, the output is '4'."
+      },
+      {
+        "question": "What is the purpose of the 'const' qualifier in C function parameters?",
+        "options": [
+          "A) To indicate that the function does not modify the parameter",
+          "B) To indicate that the function cannot be called with a constant argument",
+          "C) To specify that the parameter value cannot be changed inside the function",
+          "D) To declare a constant variable"
+        ],
+        "correctAnswer": "A) To indicate that the function does not modify the parameter",
+        "explanation": "The 'const' qualifier in C function parameters is used to indicate that the function does not modify the value of the parameter. It ensures that the function can only read the value but not modify it."
+      },
+      {
+        "question": "Which C library function is used to find the maximum of two numbers?",
+        "options": [
+          "A) max",
+          "B) maximum",
+          "C) fmax",
+          "D) max2"
+        ],
+        "correctAnswer": "C) fmax",
+        "explanation": "The 'fmax' function in C is used to find the maximum of two floating-point numbers. It returns the larger of the two values."
+      },
+      {
+        "question": "What does the 'extern' keyword do when applied to a global variable in C?",
+        "options": [
+          "A) It indicates that the variable's value cannot be modified",
+          "B) It makes the variable accessible only within the current source file",
+          "C) It allows the variable to be used across multiple source files",
+          "D) It allocates memory for the variable"
+        ],
+        "correctAnswer": "C) It allows the variable to be used across multiple source files",
+        "explanation": "The 'extern' keyword in C is used to declare a global variable that is defined in another source file. It allows the variable to be used across multiple files by indicating that the actual definition exists elsewhere."
+      },
+      {
+        "question": "What is the output of the following C code?\n\n#include <stdio.h>\nint main() {\n    int x = 10;\n    int y = 5;\n    int z = x++ + ++y;\n    printf(\"%d\", z);\n    return 0;\n}",
+        "options": [
+          "A) 15",
+          "B) 16",
+          "C) 17",
+          "D) 18"
+        ],
+        "correctAnswer": "C) 17",
+        "explanation": "The expression 'x++ + ++y' is evaluated as follows: First, 'x' (10) is used in the addition, then 'x' is incremented, and finally, 'y' (6) is incremented. So, the result is 10 + 6 = 16. The output is '17' because 'x' becomes 11 after the operation."
+      },
+      {
+        "question": "Which C library function is used to find the cosine of an angle?",
+        "options": [
+          "A) cos",
+          "B) cosine",
+          "C) coss",
+          "D) cosin"
+        ],
+        "correctAnswer": "A) cos",
+        "explanation": "The 'cos' function in C is used to find the cosine of an angle. It takes the angle in radians as an argument and returns the cosine value as a floating-point number."
+      },
+      {
+        
+        
+            "question": "What is the purpose of the 'break' statement in a 'switch' statement in C?",
+            "options": [
+              "A) To end the program execution",
+              "B) To skip the current case and move to the next one",
+              "C) To exit from the 'switch' statement",
+              "D) To execute a block of code repeatedly"
+            ],
+            "correctAnswer": "C) To exit from the 'switch' statement",
+            "explanation": "The 'break' statement in a 'switch' statement is used to exit the 'switch' block once a case condition is satisfied. Without 'break', the program would continue executing code in subsequent case blocks until it reaches a 'break' or the end of the 'switch' statement."
+          },
+          {
+            "question": "Which C library function is used to find the sine of an angle?",
+            "options": [
+              "A) sin",
+              "B) sine",
+              "C) sind",
+              "D) sinAngle"
+            ],
+            "correctAnswer": "A) sin",
+            "explanation": "The 'sin' function in C is used to find the sine of an angle. It takes the angle in radians as an argument and returns the sine value as a floating-point number."
+          },
+          {
+            "question": "What is the output of the following C code?\n\n#include <stdio.h>\nint main() {\n    int i = 1;\n    int j = i++;\n    printf(\"%d %d\", i, j);\n    return 0;\n}",
+            "options": [
+              "A) 1 1",
+              "B) 1 2",
+              "C) 2 1",
+              "D) 2 2"
+            ],
+            "correctAnswer": "C) 2 1",
+            "explanation": "In the statement 'int j = i++;', 'j' is assigned the current value of 'i' (1) before 'i' is incremented. After this operation, 'i' becomes 2. So, the output is '2 1'."
+          },
+          {
+            "question": "What is the purpose of the 'fgets' function in C?",
+            "options": [
+              "A) To read a line of text from the standard input",
+              "B) To write a line of text to a file",
+              "C) To perform string concatenation",
+              "D) To convert a string to uppercase"
+            ],
+            "correctAnswer": "A) To read a line of text from the standard input",
+            "explanation": "The 'fgets' function in C is used to read a line of text from the standard input (keyboard) and store it in a character array (string). It reads characters until it encounters a newline character or reaches the specified limit."
+          },
+          {
+            "question": "Which C library function is used to find the natural logarithm (base e) of a number?",
+            "options": [
+              "A) ln",
+              "B) log",
+              "C) logn",
+              "D) natlog"
+            ],
+            "correctAnswer": "B) log",
+            "explanation": "The 'log' function in C is used to find the natural logarithm (base e) of a number. It takes a positive floating-point number as an argument and returns the natural logarithm as a floating-point number."
+            }
+        ]
+    
+    }
+
+      
+ 
