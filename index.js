@@ -6,6 +6,6 @@ let radius = window.prompt("Enter the radius: ");
 
 radius = Number(radius);
 
-circumfrence = 2*PI*radius;
+circumfrence = 2 * PI * radius;
 
 console.log(circumfrence);
