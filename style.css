@@ -113,3 +113,9 @@ body {
     visibility: hidden;
 
 }
+
+.chat-input textarea:valid ~ span {
+
+    visibility: visible;
+    
+}
