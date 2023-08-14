@@ -32,7 +32,7 @@ const generateResponse = () => {
 
     fetch(API_URL, requestOptions).then (res => res.json ()).then(data => {
         console.log(data);
-    }).catch((err) =>{
+    }).catch((error) =>{
         console.log(error);
     })
 }
