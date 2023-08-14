@@ -181,4 +181,10 @@ body {
         height: 90%;
 
     }
+    .chatbot header span{
+
+        display: block;
+
+
+    }
 }
