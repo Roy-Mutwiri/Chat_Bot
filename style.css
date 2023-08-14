@@ -21,6 +21,9 @@ body {
     height: 50px;
     width: 50px;
     border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     outline: none;
     color: white;
     background: #724ae8;
@@ -29,7 +32,12 @@ body {
 
 
 }
-
+.chatbot-toggler span{
+    position: absolute;
+}
+.chatbot-toggler span:last-child{
+    opacity: 0;
+}
 .chatbot {
     position: fixed;
     right: 40px;
