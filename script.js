@@ -1,3 +1,4 @@
+
 const chatInput = document.querySelector(".chat-input textarea");
 const sendChatBtn = document.querySelector(".chat-input span");
 const chatbox = document.querySelector(".chatbox");
@@ -14,9 +15,14 @@ const createChatLi = (message, className) => {
 }
 
 const handleChat = () => {
-    userMessage = chatInput.Value.trim();
+    userMessage = chatInput.value.trim();
     if(!userMessage) return;
     chatbox.appendChild(createChatLi(userMessage, "outgoing"))
+    
+    setTimeout(() => {
+        chatbox.appendChild(createChatLi("Thinking....", "incoming"))
+
+    }, 600);
     
 }
 
