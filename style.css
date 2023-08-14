@@ -14,6 +14,22 @@ body {
 
 }
 
+.chatbot-toggler {
+    position: fixed;
+    right: 40px;
+    bottom: 35px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    outline: none;
+    color: white;
+    background: #724ae8;
+    border-radius: 50%;
+    cursor: pointer;
+
+
+}
+
 .chatbot {
     position: fixed;
     right: 40px;
@@ -117,5 +133,5 @@ body {
 .chat-input textarea:valid ~ span {
 
     visibility: visible;
-    
+
 }
