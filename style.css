@@ -95,9 +95,21 @@ body {
     border-top: 1px solid #ccc;
 }
 .chat-input textarea {
+    height: 55px;
+    width: 100%;
     border: none;
     outline: none;
     font-size: 0.95rem;
     resize: none;
     padding: 16px 15px 16px 0;
+}
+
+.chat-input span {
+    color: #724ae8;
+    height: 55px;
+    line-height: 55px;
+    font-size: 1.35rem;
+    cursor: pointer;
+    visibility: hidden;
+
 }
