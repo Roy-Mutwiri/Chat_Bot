@@ -22,7 +22,7 @@ const generateResponse = () => {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
-            "Authorization" : `Bearer ${}`
+            "Authorization" : `Bearer ${API_KEY}`
         }
     }
 }
