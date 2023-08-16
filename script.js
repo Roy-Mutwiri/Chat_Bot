@@ -51,4 +51,5 @@ const handleChat = () => {
 }
 /* API ERROR */
 
+
 sendChatBtn.addEventListener("click", handleChat);
